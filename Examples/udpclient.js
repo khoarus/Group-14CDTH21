@@ -1,7 +1,7 @@
 //client.js
 var PORT = 33333;
 //var HOST = '192.168.137.10';
-var HOST = '172.17.251.152';
+var HOST = '127.0.0.1';
 var dgram = require('dgram');
 var message = new Buffer('abcxef');
 
